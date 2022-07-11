@@ -19,10 +19,12 @@ spring:
     base-url: http://localhost:9411
   rabbitmq:
     addresses: localhost:5672
+
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+    enabled: false
 
 rabbitmq:
   exchanges:
